@@ -1,7 +1,8 @@
-var nomeUtente = parseInt(prompt("Inserisci un numero"));
+var numeroUtente = parseInt(prompt("Inserisci un numero"));
 
-if (nomeUtente %2 == 0) {
-    console.log(nomeUtente)
+if (numeroUtente %2 == 0) {
+    console.log(numeroUtente)
 } else {
-    console.log(nomeUtente + 1)
+    console.log(numeroUtente + 1)
 }
+
